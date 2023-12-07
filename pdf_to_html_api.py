@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF
+import fitz  # PyMuPDF #pip install PyMuPDF
 from bs4 import BeautifulSoup
 
 def pdf_to_html(pdf_path, html_path):
@@ -30,6 +30,6 @@ def pdf_to_html(pdf_path, html_path):
 
 if __name__ == "__main__":
     pdf_file_path = "C:\\cengage\\content_sets\\Cali\\capture\\temp\\ca.2023a0001.pdf"
-    html_file_path = "C:\\Users\\e756212\\Documents\\output.html"
+    html_file_path = "C:\\cengage\\content_sets\\PDF-to-HTML\\output.html"
 
     pdf_to_html(pdf_file_path, html_file_path)
